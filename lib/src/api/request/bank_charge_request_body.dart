@@ -3,8 +3,8 @@ import 'package:flutter_paystack/src/models/bank.dart';
 import 'package:flutter_paystack/src/models/charge.dart';
 
 class BankChargeRequestBody extends BaseRequestBody {
-  String _accessCode;
-  BankAccount _account;
+  late String _accessCode;
+  late BankAccount _account;
   String? _birthday;
   String? _token;
   String? transactionId;
